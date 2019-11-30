@@ -97,7 +97,7 @@ new_file = nbtlib.File({
         'DataVersion': Int(1631),
         'size': List[Int]([img.size[0],1,img.size[1]]),
         'palette': List[Compound]([{'Name': String('minecraft:'+str(i))} for i in materiallist]),
-        'blocks': List[Compound]([{'pos':List[Int]([i,1,j]),'state':Int(materiallist.index(cid2bid(sci(img.load()[i,j]))))} for i in range(0,img.size[0]) for j in range(0,img.size[1])])
+        'blocks': List[Compound]([{'pos':List[Int]([j,0,i]),'state':Int(materiallist.index(cid2bid(sci(img.load()[j,i]))))} for i in range(0,img.size[1]) for j in range(0,img.size[0])])
     })
 })
 new_file.save('picture.nbt')

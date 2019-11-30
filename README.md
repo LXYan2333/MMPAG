@@ -13,3 +13,4 @@
 在当前目录下生成`picture.nbt`。
 可以直接在litematica中加载`picture.nbt`。
 代码垃圾、运行缓慢，见谅。
+目前nbt文件还不能被litematica读取。

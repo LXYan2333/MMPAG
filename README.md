@@ -3,6 +3,7 @@
 帮助玩家在Minecraft中创建像素画的工具
 # Usage
 依赖PIL与nbtlib两个库。先安装依赖库：
+
     pip insatll pillow nbtlib
 
 然后执行命令：

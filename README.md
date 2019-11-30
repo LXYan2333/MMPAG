@@ -10,6 +10,6 @@
 
     python convert.py /path/to/your/picture.jpg
 
-在当前目录下生成 'picture.nbt' 。
-可以直接在litematica中加载 'picture.nbt' 。
+在当前目录下生成`picture.nbt`。
+可以直接在litematica中加载`picture.nbt`。
 代码垃圾、运行缓慢，见谅。

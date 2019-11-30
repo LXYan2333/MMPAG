@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 from PIL import Image
 from sys import argv,path
 import nbtlib
@@ -71,7 +66,7 @@ def sci(g):
     lst.append(d(a,b,c,76, 82, 42))
     lst.append(d(a,b,c,142, 60, 46))
     lst.append(d(a,b,c,37, 22, 16))
-    return lst.index(min(lst))+2
+    return lst.index(min(lst))+1
 
 def cid2bid(a):
     '''根据地图色ID返回合适的方块ID

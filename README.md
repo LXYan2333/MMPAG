@@ -14,4 +14,4 @@
 可以直接在litematica中加载`picture.nbt`。
 代码垃圾、运行缓慢，见谅。
 # 效果
-![alt](批注 2019-12-01 121434.jpg)
+![alt](https://i.loli.net/2019/12/01/s1tgTeqn3bJ6CxV.jpg)
